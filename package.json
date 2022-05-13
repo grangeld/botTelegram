@@ -1,0 +1,36 @@
+{
+  "name": "telegram-spam-bot",
+  "version": "1.0.0",
+  "description": "Telegram Chat Bot - handling spam messages",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seongdohee/telegram-spam-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "chatbot"
+  ],
+  "author": "seongdohee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seongdohee/telegram-spam-bot/issues"
+  },
+  "homepage": "https://github.com/seongdohee/telegram-spam-bot#readme",
+  "dependencies": {
+    "@types/node": "^11.13.4",
+    "@types/node-telegram-bot-api": "^0.51.0",
+    "node-telegram-bot-api": "^0.51.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.3",
+    "webpack": "^4.30.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
